@@ -2,7 +2,7 @@
    "name": "Change Background Color",
    "version": "1.0",
    "description": "Building my first Extension!",
-   "permissions": ["declarativeContent","storage"],
+   "permissions": ["activeTab", "declarativeContent", "storage"],
    "background": {
      "scripts": ["background.js"],
      "persistent":false
